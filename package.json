@@ -1,0 +1,16 @@
+{
+  "name": "strong-handler",
+  "version": "0.2.0",
+  "description": "Strengthen the normal handler function",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qileroro/strong-handler.git"
+  },
+  "author": "Kevin Wang <qileroro@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qileroro/strong-handler/issues"
+  },
+  "homepage": "https://github.com/qileroro/strong-handler#readme"
+}

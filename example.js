@@ -1,24 +1,5 @@
-# strong-handler
-Strengthen the normal handler function
-
-1. Support for the promise handler or the non-promise handler
-2. Non-promise handler are converted to promise handler
-3. Support handler return null/string as response output
-4. Support timeout
-
-Handler returns:
-- undefinde  ---- do nothing
-- null/empty string   ---- 204 response
-- string   ---- string as response
-- other   ----- reject
-
-
-Example
-============
-
-```javascript
 const http = require('http');
-const strengthan = require('strong-handler');
+const strengthan = require('./index');
 
 function handler(req, res) {
   if (req.url === '/timeout') {
@@ -42,4 +23,3 @@ function httpHandler(req, res) {
 };
 
 http.createServer(httpHandler).listen(3000);
-```
